@@ -77,6 +77,8 @@
                 return this.category || this.searchWords
             },
             notice() {
+
+                
                 return this.$store.getters.notice
             }
         },
